@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Exercise 1",
+      "setup": "",
+      "run": "mvn -q -Dtest=PairTest,CoordinateTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Exercise 2",
+      "setup": "",
+      "run": "mvn -q -Dtest=BagTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Exercise 3",
+      "setup": "",
+      "run": "mvn -q -Dtest=PermutatorTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Exercise 4",
+      "setup": "",
+      "run": "mvn -q -Dtest=UnionOfTest,IntersectionOfTest,FilterTest,FindTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
